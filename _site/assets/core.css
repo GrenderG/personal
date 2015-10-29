@@ -176,6 +176,8 @@ iframe {
 article {
   max-width: 500px;
   margin: 0 auto; }
+  article .post {
+    text-align: justify; }
   article .title {
     line-height: 1.4em;
     text-align: center; }
