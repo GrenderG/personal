@@ -13,7 +13,3 @@ timezone:           Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_dat
 
 # Site Build
 highlighter:        pygments
-
-# Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
