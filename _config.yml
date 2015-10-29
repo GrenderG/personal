@@ -1,0 +1,19 @@
+# Site Info
+title:              "Personal thoughts"
+description:        "Personal thoughts of Daniel Morales."
+
+# Author Info
+author_name:        "Daniel Morales"
+author_email:       dmorales@dmoral.es
+
+# Site Settings
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /notes/:title # Post permalink
+timezone:           Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Site Build
+highlighter:        pygments
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
