@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<script>
+	window.onload = function() {
+		if(window.location.href == "http://dmoral.es/personal/")
+			window.location.replace("http://personal.dmoral.es/");
+	}
+</script>
+
 <section>
 
 	{% for post in site.posts  %}
